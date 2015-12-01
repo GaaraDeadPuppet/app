@@ -8,9 +8,12 @@
 	</head>
 	<body>
 		<div id="zona_datos" class="contenedores">
-			<div id="mostrador" class="puntos">
-				<p>PUNTOS DE DIOS</p>
-				<text id="Mgod_points">0</text>				
+			<div id="header"></div>
+			<div id="mostrador">
+				<div id="blanco">
+					<text class="texto">GOD POINT</text></br>
+					<text class="texto" id="Mgod_points">0</text>				
+				</div>
 			</div>
 		</div>
 		<div id="zona_click" class="contenedores">
@@ -18,7 +21,9 @@
 		<div id="zona_compras" class="contenedores">
 			<div class="compras">
 				<div class="imagenes"></div>
-				<progress id="c_1" class="cargas" value="0" max="100"></progress><text id="Mciudadanos">0</text>
+				<progress id="c_1" class="cargas" value="0" max="100"></progress>
+				<text id="Mciudadanos">0</text>
+				<text id="Mciudadanosmax">/ 25</text>
 			</div>
 		</div>
 		<script src="script/clicar.js"></script>

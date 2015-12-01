@@ -25,7 +25,7 @@ function restore_puntos(){
 
 function mostrar_puntos(){
 	$("#Mgod_points").html(god_points);
-	$("#Mcompra[0]").html(compra[0]);
+	$("#Mciudadanos").html(compra[0]);
 }
 
 function aumentar(){
