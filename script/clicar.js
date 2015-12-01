@@ -39,7 +39,6 @@ function aumentar(){
 }
 
 function clicar_imagen(){
-	alert(max_compra[0]+","+compra[0])
 	if(god_points>=valor_god_points){
 		god_points=god_points-valor_god_points;
 		compra[0]++;
