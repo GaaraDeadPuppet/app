@@ -14,7 +14,7 @@ html,body{
 
 #header{
 	width:100%;
-	height:calc(50% - 3px);
+	height:calc(30% - 3px);
 	display:block;
 	background-image:url("../img/banner0.gif");
 	background-size:100% 100%;
@@ -24,20 +24,28 @@ html,body{
 #mostrador{
 	display:block;
 	font-size:150%;
-	line-height:150%;
+	line-height:130%;
 	width:100%;
 	height:calc(50% - 3px - 6px);
 	text-align:center;
 	background-image:url("../img/sixtina.gif");
 	background-size:100% 100%;
 	background-repeat:no-repeat;
-	margin-top:0;
-	
+	border-bottom:3px solid black;
+}
+
+#objetivos{
+	width:100%;
+	height:calc(33% - 3px);
+	display:block;
+	text-align:center;
+	line-height:200%;
 }
 
 #blanco{
 	background-color: rgba(255, 255, 255, 0.7);
 	width:50%;
+	height:100%;
 	margin-left:25%;
 }
 
