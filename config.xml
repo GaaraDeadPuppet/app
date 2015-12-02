@@ -19,10 +19,10 @@
 
 	<preference name="permissions" value="none" />
 	
-	<icon src="logo/ldpi.png" platform="android" qualifier="ldpi" />
-	<icon src="logo/mdpi.png" platform="android" qualifier="mdpi" />
-	<icon src="logo/hdpi.png" platform="android" qualifier="hdpi" />
-	<icon src="img/xhdpi.png" platform="android" qualifier="xhdpi" />
-	<icon src="img/xxhdpi.png" platform="android" qualifier="xxhdpi" />
-	<icon src="img/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+	<icon src="logo/ldpi.gif" platform="android" qualifier="ldpi" />
+	<icon src="logo/mdpi.gif" platform="android" qualifier="mdpi" />
+	<icon src="logo/hdpi.gif" platform="android" qualifier="hdpi" />
+	<icon src="img/xhdpi.gif" platform="android" qualifier="xhdpi" />
+	<icon src="img/xxhdpi.gif" platform="android" qualifier="xxhdpi" />
+	<icon src="img/fr-xxhdpi.gif" platform="android" qualifier="fr-xxhdpi" />
 </widget>
