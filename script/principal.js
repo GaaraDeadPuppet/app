@@ -5,10 +5,11 @@ $("#p_a").click(cargar_proxima_actividad);
 
 function cargar_proxima_actividad(){
 var url;
-url="http://www.ilazkitaldea.com/app/php/cargar_proxima_actividad.php";
+url="./php/cargar_proxima_actividad.php";
 url=encodeURI(url);
-alert("AAAAAAAAAAAAAAA");
+alert("aaa");
 $('#menu').load(url,asignar_menu);
+alert("aaa");
 }
 
 function asignar_menu(){
