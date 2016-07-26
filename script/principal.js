@@ -7,6 +7,7 @@ function cargar_proxima_actividad(){
 var url;
 url="http://www.ilazkitaldea.com/app/php/cargar_proxima_actividad.php";
 url=encodeURI(url);
+alert("AAAAAAAAAAAAAAA");
 $('#menu').load(url,asignar_menu);
 }
 
