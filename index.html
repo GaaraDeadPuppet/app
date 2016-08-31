@@ -6,10 +6,11 @@
 <title>ilazki taldea</title>
 <script src="./script/principal.js"></script>
 
+<!--
 <script type="text/javascript">
 $(iniciar);
 </script>
-
+-->
 <!--
 <script type="text/javascript">
 $(document).ready(function() {
@@ -22,6 +23,18 @@ $(document).ready(function() {
             });
 </script>
 -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function() {
+ $.getJSON("http://phonegappro.esy.es/test/json.php",function(result){
+ $.each(result, function(i, field){
+ $("#output").append("Title: "+ field.title + " duration: "+field.duration +" Price:"+field.price+"<br/>");
+ });
+ });
+ });
+ </script>
+ 
 </head>
 
 <body>
@@ -29,6 +42,7 @@ $(document).ready(function() {
 <h1>ILAZKI TALDEA</h1>
 <div id="images"></div>
 <div id="menu">
+<div id="output"></div>
 <button id="p_a">PROXIMA ACTIVIDAD</button>
 </div>
 
