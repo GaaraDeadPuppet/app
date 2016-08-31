@@ -1,32 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
-<script src="./script/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="./style/main.css">
-<title>ilazki taldea</title>
-<script src="./script/principal.js"></script>
-
-<!--
-<script type="text/javascript">
-$(iniciar);
-</script>
--->
-<!--
-<script type="text/javascript">
-$(document).ready(function() {
-                $.ajax({
-                    url:"./php/cargar_proxima_actividad.php",
-                    success:function(result){
-                        alert(result);
-                    }
-                });             
-            });
-</script>
--->
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ <meta charset="UTF-8">
+ <title>READ JSON Example (getJSON)</title>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  <script type="text/javascript">
  $(document).ready(function() {
  $.getJSON("http://phonegappro.esy.es/test/json.php",function(result){
@@ -36,18 +13,8 @@ $(document).ready(function() {
  });
  });
  </script>
- 
 </head>
-
 <body>
-
-<h1>ILAZKI TALDEA</h1>
-<div id="images"></div>
-<div id="menu">
-<div id="output"></div>
-<button id="p_a">PROXIMA ACTIVIDAD</button>
-</div>
-
+ <div id="output"></div>
 </body>
-
 </html>
