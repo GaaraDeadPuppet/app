@@ -20,6 +20,6 @@ version     = "1.0.0" >
   <!--
     This allows your app to load assets from all *.phongap.com domains
   -->
-  <access origin="http://www.ilazkitaldea.com/app/" subdomains="true" />
+  <access origin="*" />
 
 </widget>
