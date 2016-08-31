@@ -13,6 +13,8 @@ url="http://www.ilazkitaldea.com/app/php/cargar_proxima_actividad.php";
 url=encodeURI(url);
 $('#menu').load(url,asignar_menu);
 */
+alert("AAAAAA");
+
 var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
   $.getJSON( flickerAPI, {
     tags: "mount rainier",
